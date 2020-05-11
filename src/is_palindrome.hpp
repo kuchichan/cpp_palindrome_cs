@@ -5,7 +5,7 @@
 #include <algorithm>
 
 inline
-double isPalindrome(const std::string & text) {
+bool isPalindrome(const std::string & text) {
   std::string temp_1 = text;
   std::string temp_2 = text;
   std::reverse(temp_1.begin(), temp_1.end());
